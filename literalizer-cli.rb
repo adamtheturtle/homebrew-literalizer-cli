@@ -3,8 +3,8 @@ class LiteralizerCli < Formula
 
   desc "CLI for literalizer - convert data structures to native language literal syntax"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/06/5e/1e8decba16ecb2d16ddb11e7937c354dc50d0ab1463401e20a3fca7da97a/literalizer_cli-2026.3.23.4.tar.gz"
-  sha256 "ce5bcc6b0de7b90876872b82c35a76579938db73e5eef42b8e6746992390f879"
+  url "https://files.pythonhosted.org/packages/c0/72/e25e9ee824a0b89ba81bae0b831feecc2f90ac0b31bacb7b368b976bd5ed/literalizer_cli-2026.3.23.5.tar.gz"
+  sha256 "47bf09db31bab382547447c07c8397a741e06c233b69fabd82aab3ddb9f0c6c1"
 
   depends_on "python3"
 
