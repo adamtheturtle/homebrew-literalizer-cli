@@ -3,8 +3,8 @@ class LiteralizerCli < Formula
 
   desc "CLI for literalizer - convert data structures to native language literal syntax"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/c0/72/e25e9ee824a0b89ba81bae0b831feecc2f90ac0b31bacb7b368b976bd5ed/literalizer_cli-2026.3.23.5.tar.gz"
-  sha256 "47bf09db31bab382547447c07c8397a741e06c233b69fabd82aab3ddb9f0c6c1"
+  url "https://files.pythonhosted.org/packages/ca/1a/aa8df325f252886125741870ace7ea087b6eba4e399132b3782bc6d16a59/literalizer_cli-2026.3.23.7.tar.gz"
+  sha256 "4eef56e9aff782cc06d31045c0b16731e2b50885d0dc029b6e73c3dbf08f22b9"
 
   depends_on "python3"
 
@@ -18,14 +18,9 @@ class LiteralizerCli < Formula
     sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
   end
 
-  resource "json-to-schema" do
-    url "https://files.pythonhosted.org/packages/b3/23/58ac92794bbfe9081461f6d329ef7a083e9f8757ae98f138d8e3d10b7941/json_to_schema-1.3.0.tar.gz"
-    sha256 "aaaf95da3abd01cd8630203b9c98dad067bbe351c3561981baa7ee73e5b6fa30"
-  end
-
   resource "literalizer" do
-    url "https://files.pythonhosted.org/packages/f6/59/0535209b6c856e7bb73d304ea38bae7664d09887cb2fc59a7ff5c46e96ce/literalizer-2026.3.22.1.tar.gz"
-    sha256 "3c3294934d7adcc8c0041ed9b1da6045643ed9b7a74f2e5dcc538d58c461a27a"
+    url "https://files.pythonhosted.org/packages/76/d4/db1443f9a0a65c25837034e8bdb92dea90ba0b34ed71e48f243902dbc65a/literalizer-2026.3.23.tar.gz"
+    sha256 "301ea7e79bef858f30f6138cb01802b1d51e011a0ca63f625e35a52d32177278"
   end
 
   resource "ruamel.yaml" do
