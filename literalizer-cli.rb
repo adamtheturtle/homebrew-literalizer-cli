@@ -19,8 +19,8 @@ class LiteralizerCli < Formula
   end
 
   resource "literalizer" do
-    url "https://files.pythonhosted.org/packages/76/d4/db1443f9a0a65c25837034e8bdb92dea90ba0b34ed71e48f243902dbc65a/literalizer-2026.3.23.tar.gz"
-    sha256 "301ea7e79bef858f30f6138cb01802b1d51e011a0ca63f625e35a52d32177278"
+    url "https://files.pythonhosted.org/packages/be/ff/cf895ab0b7d7a9d519c3fac8912d1c74489c9e12c0be61382e2b0b3d3f62/literalizer-2026.3.25.tar.gz"
+    sha256 "943319fd9f83b064b651d77fad47a7ed27722c2800f612864f74b03aca475ef6"
   end
 
   resource "ruamel.yaml" do
