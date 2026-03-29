@@ -3,8 +3,8 @@ class LiteralizerCli < Formula
 
   desc "CLI for literalizer - convert data structures to native language literal syntax"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/ca/1a/aa8df325f252886125741870ace7ea087b6eba4e399132b3782bc6d16a59/literalizer_cli-2026.3.23.7.tar.gz"
-  sha256 "4eef56e9aff782cc06d31045c0b16731e2b50885d0dc029b6e73c3dbf08f22b9"
+  url "https://files.pythonhosted.org/packages/15/d5/82f8b5ec154f8de82383f4ce4dfe468184377b987a7e2d0c2592eb6c017b/literalizer_cli-2026.3.25.tar.gz"
+  sha256 "a2fe827b17f968b44d3c765f20b27209a9de1d5b10045f3a4fbc94e11afff1bf"
 
   depends_on "python3"
 
@@ -19,8 +19,8 @@ class LiteralizerCli < Formula
   end
 
   resource "literalizer" do
-    url "https://files.pythonhosted.org/packages/be/ff/cf895ab0b7d7a9d519c3fac8912d1c74489c9e12c0be61382e2b0b3d3f62/literalizer-2026.3.25.tar.gz"
-    sha256 "943319fd9f83b064b651d77fad47a7ed27722c2800f612864f74b03aca475ef6"
+    url "https://files.pythonhosted.org/packages/a0/2c/a67c7ae4d27755863ff4de6dd910c08858ca548fa9db48fd5218efb7c077/literalizer-2026.3.29.tar.gz"
+    sha256 "292d86ba4d7e3cd2e35de464e8b120d9f2c54bed73b1de1f86c8b642fed6ed87"
   end
 
   resource "ruamel.yaml" do
