@@ -3,8 +3,8 @@ class LiteralizerCli < Formula
 
   desc "CLI for literalizer - convert data structures to native language literal syntax"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/15/d5/82f8b5ec154f8de82383f4ce4dfe468184377b987a7e2d0c2592eb6c017b/literalizer_cli-2026.3.25.tar.gz"
-  sha256 "a2fe827b17f968b44d3c765f20b27209a9de1d5b10045f3a4fbc94e11afff1bf"
+  url "https://files.pythonhosted.org/packages/b5/14/ad3badc64eccbc49f1205c6dfe46bf089c24aa4f0f722230416207994d61/literalizer_cli-2026.3.29.tar.gz"
+  sha256 "3ad3d54fb91a30edb5f35c86e956bf6f0c763f023752156553fcd269adf94c84"
 
   depends_on "python3"
 
@@ -19,13 +19,23 @@ class LiteralizerCli < Formula
   end
 
   resource "literalizer" do
-    url "https://files.pythonhosted.org/packages/a0/2c/a67c7ae4d27755863ff4de6dd910c08858ca548fa9db48fd5218efb7c077/literalizer-2026.3.29.tar.gz"
-    sha256 "292d86ba4d7e3cd2e35de464e8b120d9f2c54bed73b1de1f86c8b642fed6ed87"
+    url "https://files.pythonhosted.org/packages/c9/23/1d050d860b13e364e55260e41e8b9ad5df9f9f57d115b2b75f6ada3e8f99/literalizer-2026.4.6.tar.gz"
+    sha256 "5aab20a4326cb103568883e4fb9dc88b3df47d1928f16814721e309a569760cd"
+  end
+
+  resource "pyjson5" do
+    url "https://files.pythonhosted.org/packages/6e/d9/005aaaf5077cde946282b22da9404965477fb140fa6836b52d2e0955a391/pyjson5-2.0.0.tar.gz"
+    sha256 "7ccc98586cf87dfeadfa76de8df4c9cb0c3d21d1b559e28812dd9633748d6e25"
   end
 
   resource "ruamel.yaml" do
     url "https://files.pythonhosted.org/packages/c7/3b/ebda527b56beb90cb7652cb1c7e4f91f48649fbcd8d2eb2fb6e77cd3329b/ruamel_yaml-0.19.1.tar.gz"
     sha256 "53eb66cd27849eff968ebf8f0bf61f46cdac2da1d1f3576dd4ccee9b25c31993"
+  end
+
+  resource "tomlkit" do
+    url "https://files.pythonhosted.org/packages/c3/af/14b24e41977adb296d6bd1fb59402cf7d60ce364f90c890bd2ec65c43b5a/tomlkit-0.14.0.tar.gz"
+    sha256 "cf00efca415dbd57575befb1f6634c4f42d2d87dbba376128adb42c121b87064"
   end
 
   def install
