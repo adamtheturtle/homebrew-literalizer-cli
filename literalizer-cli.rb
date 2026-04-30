@@ -3,8 +3,8 @@ class LiteralizerCli < Formula
 
   desc "CLI for literalizer - convert data structures to native language literal syntax"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/b5/14/ad3badc64eccbc49f1205c6dfe46bf089c24aa4f0f722230416207994d61/literalizer_cli-2026.3.29.tar.gz"
-  sha256 "3ad3d54fb91a30edb5f35c86e956bf6f0c763f023752156553fcd269adf94c84"
+  url "https://files.pythonhosted.org/packages/e4/99/b85ccd9cde76132abf5e4537aac8916771c49c178fbb84415aa003914a53/literalizer_cli-2026.4.6.tar.gz"
+  sha256 "d651cfd04e1b6e6f1f234fb616ecc49d3e866b44d6e748238234d1b40f5a6e69"
 
   depends_on "python3"
 
@@ -14,13 +14,18 @@ class LiteralizerCli < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
-    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
+    url "https://files.pythonhosted.org/packages/bb/63/f9e1ea081ce35720d8b92acde70daaedace594dc93b693c869e0d5910718/click-8.3.3.tar.gz"
+    sha256 "398329ad4837b2ff7cbe1dd166a4c0f8900c3ca3a218de04466f38f6497f18a2"
   end
 
   resource "literalizer" do
-    url "https://files.pythonhosted.org/packages/c9/23/1d050d860b13e364e55260e41e8b9ad5df9f9f57d115b2b75f6ada3e8f99/literalizer-2026.4.6.tar.gz"
-    sha256 "5aab20a4326cb103568883e4fb9dc88b3df47d1928f16814721e309a569760cd"
+    url "https://files.pythonhosted.org/packages/73/3f/dc3db7939c6f7023b191247e31ef13ebaf38986c074f057c36b3a5c0bbf9/literalizer-2026.4.29.tar.gz"
+    sha256 "95d1323be12e5d63022a41cea249ffb379ed8943d0bfc5a6f88e23de5f4e144e"
+  end
+
+  resource "pyhumps" do
+    url "https://files.pythonhosted.org/packages/c4/83/fa6f8fb7accb21f39e8f2b6a18f76f6d90626bdb0a5e5448e5cc9b8ab014/pyhumps-3.8.0.tar.gz"
+    sha256 "498026258f7ee1a8e447c2e28526c0bea9407f9a59c03260aee4bd6c04d681a3"
   end
 
   resource "pyjson5" do
@@ -31,6 +36,11 @@ class LiteralizerCli < Formula
   resource "ruamel.yaml" do
     url "https://files.pythonhosted.org/packages/c7/3b/ebda527b56beb90cb7652cb1c7e4f91f48649fbcd8d2eb2fb6e77cd3329b/ruamel_yaml-0.19.1.tar.gz"
     sha256 "53eb66cd27849eff968ebf8f0bf61f46cdac2da1d1f3576dd4ccee9b25c31993"
+  end
+
+  resource "ruamel.yaml.clib" do
+    url "https://files.pythonhosted.org/packages/ea/97/60fda20e2fb54b83a61ae14648b0817c8f5d84a3821e40bfbdae1437026a/ruamel_yaml_clib-0.2.15.tar.gz"
+    sha256 "46e4cc8c43ef6a94885f72512094e482114a8a706d3c555a34ed4b0d20200600"
   end
 
   resource "tomlkit" do
