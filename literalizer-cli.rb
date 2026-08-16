@@ -3,8 +3,8 @@ class LiteralizerCli < Formula
 
   desc "CLI for literalizer - convert data structures to native language literal syntax"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/e4/99/b85ccd9cde76132abf5e4537aac8916771c49c178fbb84415aa003914a53/literalizer_cli-2026.4.6.tar.gz"
-  sha256 "d651cfd04e1b6e6f1f234fb616ecc49d3e866b44d6e748238234d1b40f5a6e69"
+  url "https://files.pythonhosted.org/packages/ff/ec/3f281bb865684dd0a837beeb71d6d6f66ff61580ac149274f9af1215ec35/literalizer_cli-2026.8.16.1.tar.gz"
+  sha256 "191a340f00d9c6181ad55f1000673d9c5e96aaa5cca267fa95223a4257f2753a"
 
   depends_on "python3"
 
@@ -14,13 +14,13 @@ class LiteralizerCli < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/bb/63/f9e1ea081ce35720d8b92acde70daaedace594dc93b693c869e0d5910718/click-8.3.3.tar.gz"
-    sha256 "398329ad4837b2ff7cbe1dd166a4c0f8900c3ca3a218de04466f38f6497f18a2"
+    url "https://files.pythonhosted.org/packages/76/d4/81420972a676e8ffea40450d8c8c92943e7218a78fe9b64359836cc9876b/click-8.4.2.tar.gz"
+    sha256 "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6"
   end
 
   resource "literalizer" do
-    url "https://files.pythonhosted.org/packages/73/3f/dc3db7939c6f7023b191247e31ef13ebaf38986c074f057c36b3a5c0bbf9/literalizer-2026.4.29.tar.gz"
-    sha256 "95d1323be12e5d63022a41cea249ffb379ed8943d0bfc5a6f88e23de5f4e144e"
+    url "https://files.pythonhosted.org/packages/a0/6a/9dbadcf45a71a496e20211021d824a6a5cc13bc4ff433faaf71331ef6e36/literalizer-2026.8.2.tar.gz"
+    sha256 "e84374c53b465bf53e7c4a9381c50c866f7bd9d00ea7628ac81ed53c4f742c71"
   end
 
   resource "pyhumps" do
@@ -44,8 +44,13 @@ class LiteralizerCli < Formula
   end
 
   resource "tomlkit" do
-    url "https://files.pythonhosted.org/packages/c3/af/14b24e41977adb296d6bd1fb59402cf7d60ce364f90c890bd2ec65c43b5a/tomlkit-0.14.0.tar.gz"
-    sha256 "cf00efca415dbd57575befb1f6634c4f42d2d87dbba376128adb42c121b87064"
+    url "https://files.pythonhosted.org/packages/51/db/03eaf4331631ef6b27d6e3c9b68c54dc6f0d63d87201fed600cc409307fd/tomlkit-0.15.0.tar.gz"
+    sha256 "7d1a9ecba3086638211b13814ea79c90dd54dd11993564376f3aa92271f5c7a3"
+  end
+
+  resource "typing-extensions" do
+    url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
+    sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
   end
 
   def install
