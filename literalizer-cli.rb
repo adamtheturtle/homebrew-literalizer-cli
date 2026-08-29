@@ -3,8 +3,8 @@ class LiteralizerCli < Formula
 
   desc "CLI for literalizer - convert data structures to native language literal syntax"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/ff/ec/3f281bb865684dd0a837beeb71d6d6f66ff61580ac149274f9af1215ec35/literalizer_cli-2026.8.16.1.tar.gz"
-  sha256 "191a340f00d9c6181ad55f1000673d9c5e96aaa5cca267fa95223a4257f2753a"
+  url "https://files.pythonhosted.org/packages/e4/b8/44ce125a261584a1b84042997e8a963f2f270423aefc2e506cd9ad0bee0b/literalizer_cli-2026.8.29.tar.gz"
+  sha256 "7712d7ad886ca1b39a184a166f421c237884f7dc8b0d413efb2f234ddb0557f1"
 
   depends_on "python3"
 
@@ -18,19 +18,19 @@ class LiteralizerCli < Formula
     sha256 "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6"
   end
 
+  resource "json5" do
+    url "https://files.pythonhosted.org/packages/e4/7d/05c46a96a78147ae3bf99c2f4169ce144a70220b8d6fcd56f6ec368b8ce9/json5-0.15.0.tar.gz"
+    sha256 "7424d1f1eb1d56da6e3d70643f53619862b4ce81440bdb8ecfd6f875e5ba4a71"
+  end
+
   resource "literalizer" do
-    url "https://files.pythonhosted.org/packages/a0/6a/9dbadcf45a71a496e20211021d824a6a5cc13bc4ff433faaf71331ef6e36/literalizer-2026.8.2.tar.gz"
-    sha256 "e84374c53b465bf53e7c4a9381c50c866f7bd9d00ea7628ac81ed53c4f742c71"
+    url "https://files.pythonhosted.org/packages/44/cf/296d71326dae767b11b3fe5d287151e8cc1aebe572f36eb73e5a723aaa73/literalizer-2026.8.23.tar.gz"
+    sha256 "aa3e6532a48edc656710afd12804fea1483d84e2067df54086cf14c1543e1aee"
   end
 
   resource "pyhumps" do
     url "https://files.pythonhosted.org/packages/c4/83/fa6f8fb7accb21f39e8f2b6a18f76f6d90626bdb0a5e5448e5cc9b8ab014/pyhumps-3.8.0.tar.gz"
     sha256 "498026258f7ee1a8e447c2e28526c0bea9407f9a59c03260aee4bd6c04d681a3"
-  end
-
-  resource "pyjson5" do
-    url "https://files.pythonhosted.org/packages/6e/d9/005aaaf5077cde946282b22da9404965477fb140fa6836b52d2e0955a391/pyjson5-2.0.0.tar.gz"
-    sha256 "7ccc98586cf87dfeadfa76de8df4c9cb0c3d21d1b559e28812dd9633748d6e25"
   end
 
   resource "ruamel.yaml" do
