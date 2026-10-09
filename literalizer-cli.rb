@@ -3,19 +3,19 @@ class LiteralizerCli < Formula
 
   desc "CLI for literalizer - convert data structures to native language literal syntax"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/e2/3d/d92cf6e6cf4e673c3d2713115d820ed706dc259ad073fe7881e076e8e263/literalizer_cli-2026.8.30.1.tar.gz"
-  sha256 "b7288270c9769512c766c8e0f903c9e9733537ad22a5d50af69a09a8308f20c8"
+  url "https://files.pythonhosted.org/packages/cd/89/5e164580391c856da45ef3d0e6c5f68bd96bf873ec6d48d382d38968b041/literalizer_cli-2026.10.9.tar.gz"
+  sha256 "0c2723abac2554087dded50d55dc433af56f0a2bbcdb8af159c9eeeb62e2d2ce"
 
   depends_on "python3"
 
   resource "beartype" do
-    url "https://files.pythonhosted.org/packages/c7/94/1009e248bbfbab11397abca7193bea6626806be9a327d399810d523a07cb/beartype-0.22.9.tar.gz"
-    sha256 "8f82b54aa723a2848a56008d18875f91c1db02c32ef6a62319a002e3e25a975f"
+    url "https://files.pythonhosted.org/packages/2d/58/a4ac1ef919ce13a20c35ed3312b727e56a52029a1921e8f0e91cc52ef2cd/beartype-0.23.0rc2.tar.gz"
+    sha256 "d589e5c6cf1859e4cf355db52ddcd08e2eca98784d7d73dc5f4491f423f94ee5"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/76/d4/81420972a676e8ffea40450d8c8c92943e7218a78fe9b64359836cc9876b/click-8.4.2.tar.gz"
-    sha256 "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6"
+    url "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz"
+    sha256 "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"
   end
 
   resource "json5" do
@@ -24,8 +24,8 @@ class LiteralizerCli < Formula
   end
 
   resource "literalizer" do
-    url "https://files.pythonhosted.org/packages/44/cf/296d71326dae767b11b3fe5d287151e8cc1aebe572f36eb73e5a723aaa73/literalizer-2026.8.23.tar.gz"
-    sha256 "aa3e6532a48edc656710afd12804fea1483d84e2067df54086cf14c1543e1aee"
+    url "https://files.pythonhosted.org/packages/39/f8/6fdbb45349e2b543b7c1406f80727f439b44522b76d38d070c2498153764/literalizer-2026.9.16.tar.gz"
+    sha256 "311a6e6fbc8ff48ef751a16e85a0a7052a25784bb45056aaa5a94d7b7b4c53ca"
   end
 
   resource "pyhumps" do
