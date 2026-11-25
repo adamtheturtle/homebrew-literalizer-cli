@@ -3,29 +3,34 @@ class LiteralizerCli < Formula
 
   desc "CLI for literalizer - convert data structures to native language literal syntax"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/cd/89/5e164580391c856da45ef3d0e6c5f68bd96bf873ec6d48d382d38968b041/literalizer_cli-2026.10.9.tar.gz"
-  sha256 "0c2723abac2554087dded50d55dc433af56f0a2bbcdb8af159c9eeeb62e2d2ce"
+  url "https://files.pythonhosted.org/packages/73/85/1e847588c21b3fb2be9037a81d40692ee228ab892a9c8abb14f9be931ce4/literalizer_cli-2026.11.25.tar.gz"
+  sha256 "2ee0f5e25baa53b441b7ca8717b2453c1da4cdc161dba7240b6788081f2398cb"
 
   depends_on "python3"
 
   resource "beartype" do
-    url "https://files.pythonhosted.org/packages/2d/58/a4ac1ef919ce13a20c35ed3312b727e56a52029a1921e8f0e91cc52ef2cd/beartype-0.23.0rc2.tar.gz"
-    sha256 "d589e5c6cf1859e4cf355db52ddcd08e2eca98784d7d73dc5f4491f423f94ee5"
+    url "https://files.pythonhosted.org/packages/79/34/c0cfdaee9c796c8381439fed0fcab62810753b8b0adb1ec88fa7f41eaa5d/beartype-0.23.1.tar.gz"
+    sha256 "8b805f246b32931c74f2b321ea0939fe5bb2ff43c12a3eff19cc4c854b832e1d"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz"
-    sha256 "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"
+    url "https://files.pythonhosted.org/packages/45/37/edbf1b0707709013c0cf2e8317e03d97ed29bf4cac709fe328904ae92a38/click-8.5.1.tar.gz"
+    sha256 "9bbfada76703fd1d784b83eea012e3e8c6a001a876543ef104fa56aaaeb072b4"
   end
 
-  resource "json5" do
-    url "https://files.pythonhosted.org/packages/e4/7d/05c46a96a78147ae3bf99c2f4169ce144a70220b8d6fcd56f6ec368b8ce9/json5-0.15.0.tar.gz"
-    sha256 "7424d1f1eb1d56da6e3d70643f53619862b4ce81440bdb8ecfd6f875e5ba4a71"
+  resource "json5-document" do
+    url "https://files.pythonhosted.org/packages/7c/e4/ed48d6868fb633cea8eb2422926f4b0a7600d996e7a9ad8ad317af4c22db/json5_document-2026.10.15.1.tar.gz"
+    sha256 "4775b2013c744a412c18ce9b40969deeb6b2e7df514f8c7d5f374673a9ba4922"
+  end
+
+  resource "jsonc-document" do
+    url "https://files.pythonhosted.org/packages/71/8c/bb4eee8cf2e918706c56b0cd3cac51b812f3202408427aefc3219a0f6705/jsonc_document-2026.10.15.tar.gz"
+    sha256 "fbe17fa2ae2b5f5058f07e6480b6530f656927e0ec492c009bc5af875e7e07f7"
   end
 
   resource "literalizer" do
-    url "https://files.pythonhosted.org/packages/39/f8/6fdbb45349e2b543b7c1406f80727f439b44522b76d38d070c2498153764/literalizer-2026.9.16.tar.gz"
-    sha256 "311a6e6fbc8ff48ef751a16e85a0a7052a25784bb45056aaa5a94d7b7b4c53ca"
+    url "https://files.pythonhosted.org/packages/c1/13/073306dda41e5833af12feb0db95b244915c10b2db3ad8167c3940e57caf/literalizer-2026.11.25.tar.gz"
+    sha256 "b7a0a717436df17b6b24227d8754e01fa1d2b62cc83533e5a8ab74da1f7ed48f"
   end
 
   resource "pyhumps" do
@@ -44,13 +49,13 @@ class LiteralizerCli < Formula
   end
 
   resource "tomlkit" do
-    url "https://files.pythonhosted.org/packages/51/db/03eaf4331631ef6b27d6e3c9b68c54dc6f0d63d87201fed600cc409307fd/tomlkit-0.15.0.tar.gz"
-    sha256 "7d1a9ecba3086638211b13814ea79c90dd54dd11993564376f3aa92271f5c7a3"
+    url "https://files.pythonhosted.org/packages/08/72/fc01563df95c189a9f65850096bdc205bc2fe37da6c740cd64afaf18d07e/tomlkit-0.15.2.tar.gz"
+    sha256 "83e32755ba1d20d9340bd069ee97e9f6232ba2346b63ffcba425de01f7e327a6"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
-    sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
+    url "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
+    sha256 "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
   end
 
   def install
