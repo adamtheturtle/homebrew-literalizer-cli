@@ -3,8 +3,8 @@ class LiteralizerCli < Formula
 
   desc "CLI for literalizer - convert data structures to native language literal syntax"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/73/85/1e847588c21b3fb2be9037a81d40692ee228ab892a9c8abb14f9be931ce4/literalizer_cli-2026.11.25.tar.gz"
-  sha256 "2ee0f5e25baa53b441b7ca8717b2453c1da4cdc161dba7240b6788081f2398cb"
+  url "https://files.pythonhosted.org/packages/87/ff/5c64a44b523063d5a454edc03113da1804cad18bef52d39d37c908e23a3e/literalizer_cli-2026.11.25.1.tar.gz"
+  sha256 "7a78eff9cbdeb73f69c3f80fdf624f8be8835e38fe56867c6a363f8f88eac4a2"
 
   depends_on "python3"
 
@@ -29,8 +29,8 @@ class LiteralizerCli < Formula
   end
 
   resource "literalizer" do
-    url "https://files.pythonhosted.org/packages/c1/13/073306dda41e5833af12feb0db95b244915c10b2db3ad8167c3940e57caf/literalizer-2026.11.25.tar.gz"
-    sha256 "b7a0a717436df17b6b24227d8754e01fa1d2b62cc83533e5a8ab74da1f7ed48f"
+    url "https://files.pythonhosted.org/packages/99/fd/2bd9b0a3dabdf93af69120e9c162e76108ae5ce5ef9b610585d1779e461c/literalizer-2026.11.25.2.tar.gz"
+    sha256 "19c3401a05f5216940cabe8e4c928d727226a3d8c9bf04c091302498ae1425ae"
   end
 
   resource "pyhumps" do
